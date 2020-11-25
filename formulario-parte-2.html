@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+    <title>Formulario parte 2</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .row{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <input type="text" class="form-control form-contrl-lg">
+                <input type="text" class="form-control">
+                <input type="text" class="form-control form-control-sm">
+            </div>
+        </div>
+        <!--2-->
+        <div class="row">
+            <div class="col-12">
+                <form action="#">
+                    <div class="form-group row">
+                        <label for="inputEmail1" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control-plaintext" name="inputEmail1" id="inputEmail1" placeholder="Insira seu Email" value="meuemauil@meudominio.com.br" readonly>
+                        </div>
+                    </div>
+                    <!--input senha-->
+                    <div class="form-group row">
+                        <label for="inputSenha1" class="col-sm-2 col-form-label">Senha</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" name="inputSenha1" id="inputSenha1" placeholder="Insira sua senha" readonly>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--Formulario com grid-->
+        <div class="row">
+            <div class="col-12">
+                <form action="">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="nome" class="col-form-label">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control" placeholder="Digite seu nome">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="sobreNome" class="col-form-label">Sobrenome</label>
+                            <input type="text" id="sobreNome" name="sobreNome" class="form-control" placeholder="Digite seu sobrenome">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="endereco" class="col-form-label">Endereço</label>
+                            <input type="text" id="endereco" name="endereco" class="form-control" placeholder="Digite seu endereço"> 
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="cidade" class="col-form-label">Cidade</label>
+                            <input type="text" id="cidade" name="cidade" class="form-control" placeholder="Digite sua cidade">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="estado" class="col-form-label">Estado</label>
+                            <input type="text" id="estado" name="estado" class="form-control" placeholder="Digite seu estado">
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="cep" class="col-form-label">Cep</label>
+                            <input type="text" id="cep" name="cep" class="form-control" placeholder="Digite seu CEP">
+                        </div>
+                    </div>
+                    <button class="btn btn-primary">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <form action="" class="form-inline">
+                    <label for="nameInline" class="sr-only">Nome</label>
+                    <input type="text" class="form-control mb-2 mr-2" name="nameInline" id="nameInline" placeholder="Digite seu nome">
+                    <!---->
+                    <label for="senhaInline" class="sr-only">Senha</label>
+                    <input type="password" class="form-control mb-2 mr-2" name="senhaInline" id="senhaInline" placeholder="Digite sua senha">
+                    <button class="btn btn-primary">Cadastar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
