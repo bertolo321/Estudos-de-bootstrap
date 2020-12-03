@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+    <title>Listagem em grupo parte 1</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style>
+        .row{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header aria-label="voltar para o menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!--Alinhando a esquerda-->
+                    <nav class="nav justify-content-end">
+                        <a href="../fundamentos/" class="nav-link">VOLTAR</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+               <ul class="list-group">
+                    <li class="list-group-item list-group-item-primary">Item 1</li>
+                    <li class="list-group-item list-group-item-secondary">Item 2</li>
+                    <li class="list-group-item disabled">Item 3</li>
+                    <li class="list-group-item list-group-item-success">Item 4</li>
+                    <li class="list-group-item">Item 5</li>
+               </ul>
+            </div>
+            <!--2 link-->
+            <div class="col-4">
+                <div class="list-group">
+                   <a href="#" class="list-group-item active">Link 1</a>
+                   <a href="#" class="list-group-item list-group-item-action">Link 2</a>
+                   <a href="#" class="list-group-item list-group-item-action">Link 3</a>
+                   <a href="#" class="list-group-item list-group-item-action disabled">Link 4</a>
+                   <a href="#" class="list-group-item list-group-item-action">Link 5</a>
+                </div>
+             </div>
+              <!--3 botton-->
+            <div class="col-4">
+                <div class="list-group">
+                   <button type="button" class="list-group-item list-group-item-action active">Botão 1</button>
+                   <button type="button" class="list-group-item list-group-item-action">Botão</button> 
+                   <button type="button" class="list-group-item list-group-item-action">Botão 3</button>
+                   <button type="button" class="list-group-item list-group-item-action"disabled>Botão 4</button>
+                   <button type="button" class="list-group-item list-group-item-action">Botão 5</button>
+                </div>
+             </div>
+        </div>
+    </div>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

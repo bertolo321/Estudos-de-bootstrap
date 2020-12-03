@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+    <title></title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style>
+        .row{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header aria-label="voltar para o menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!--Alinhando a esquerda-->
+                    <nav class="nav justify-content-end">
+                        <a href="../fundamentos/" class="nav-link">VOLTAR</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Aut distinctio tempore rem aspernatur officiis soluta
+                   aliquam ex! Quidem, consequuntur distinctio ipsam voluptas
+                   iure quis nisi officia impedit necessitatibus. Magni, nobis!
+                </p>
+                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Tooltip no topo">
+                    Tootip top
+                </button> 
+                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Tooltip na direita">
+                    Tootip direita
+                </button> 
+                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Tooltip para baixo">
+                    Tootip botton
+                </button> 
+                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" title="Tooltip para esquerda">
+                    Tootip left
+                </button> 
+            </div>
+        </div>
+    </div>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script>
+        $(function(){
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+    <title>breadcrumb</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <header aria-label="voltar para o menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!--Alinhando a esquerda-->
+                    <nav class="nav justify-content-end">
+                        <a href="../fundamentos/" class="nav-link">VOLTAR</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <h1>Breadcrumb</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+               <ol class="breadcrumb">
+                    <li class="breadcrumb-item active">HOME</li>
+               </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+               <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">HOME</a></li>
+                    <li class="breadcrumb-item active">BIBLIOTECA</li>
+               </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+               <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">HOME</a></li>
+                    <li class="breadcrumb-item"><a href="#">BIBLIOTECA</a></li>
+                    <li class="breadcrumb-item active">ITEM</li>
+               </ol>
+            </div>
+        </div>
+        <!---->
+        <div class="row">
+            <div class="col-12">
+              <nav class="breadcrumb">
+                <a class="breadcrumb-item" href="#">HOME</a>
+                <a class="breadcrumb-item" href="#">BIBLIOTECA</a>
+                <a class="breadcrumb-item" href="#">ITEM</a>
+                <span class="breadcrumb-item active">BOOTSTRAP</span>  
+              </nav>
+            </div>
+        </div>
+    </div>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
